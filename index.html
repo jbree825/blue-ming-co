@@ -4,81 +4,126 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Blue-Ming Co. | Custom Buttons & Hand-Painted Banners, College Station TX</title>
-<meta name="description" content="Blue-Ming Co. creates custom buttons, hand-painted banners and personalized gift bags in College Station, Texas. Made for Ring Day, graduations, birthdays and game days.">
+<meta name="description" content="Custom buttons and cute creations, made with love in Texas. Hand-painted banners, button bar, gift bags, photo frames and clipboards in College Station and San Antonio.">
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Nunito:wght@400;700;800;900&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#2b2b2b;background:#fffdf8;line-height:1.6}
-.hero{min-height:92vh;background:linear-gradient(rgba(80,0,0,.55),rgba(80,0,0,.55)),url('https://images.unsplash.com/photo-1513151233558-d860c5398176?w=1600&q=80') center/cover;color:#fff;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:40px 20px}
-.hero h1{font-size:clamp(2.4rem,6vw,4.2rem);letter-spacing:.5px}
-.hero p{font-size:1.2rem;max-width:680px;margin:16px 0 28px}
-.btn{display:inline-block;background:#ffcf4d;color:#500000;padding:15px 32px;border-radius:30px;text-decoration:none;font-weight:800;margin:6px}
-.btn.alt{background:#fff;color:#500000}
-section{padding:60px 20px;max-width:1100px;margin:0 auto}
-h2{font-size:2rem;color:#500000;text-align:center;margin-bottom:10px}
-.sub{text-align:center;color:#666;max-width:640px;margin:0 auto 30px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}
-.card{background:#fff;border-radius:20px;overflow:hidden;box-shadow:0 8px 30px rgba(0,0,0,.1)}
+body{font-family:'Nunito',system-ui,sans-serif;color:#243447;background:#FFF9F2;line-height:1.6}
+.topbar{background:#1F3A5F;color:#fff;text-align:center;padding:10px 16px;font-weight:700;font-size:.95rem}
+.hero{background:linear-gradient(180deg,#A8C6DF,#FFF9F2);text-align:center;padding:70px 20px 60px}
+.logo{font-family:'Great Vibes',cursive;font-size:clamp(3rem,8vw,5rem);color:#1F3A5F;line-height:1}
+.hero h1{font-size:clamp(1.5rem,4vw,2.3rem);color:#1F3A5F;margin:14px auto 10px;max-width:760px}
+.hero p{max-width:640px;margin:0 auto 26px;color:#44566b;font-size:1.1rem}
+.btn{display:inline-block;background:#1F3A5F;color:#fff;padding:15px 30px;border-radius:30px;text-decoration:none;font-weight:900;margin:6px}
+.btn.pink{background:#F4C6D4;color:#1F3A5F}
+section{padding:56px 20px;max-width:1100px;margin:0 auto}
+h2{font-size:2rem;color:#1F3A5F;text-align:center;margin-bottom:10px}
+.sub{text-align:center;color:#66788d;max-width:660px;margin:0 auto 30px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+.card{background:#fff;border-radius:20px;overflow:hidden;box-shadow:0 8px 28px rgba(31,58,95,.12)}
 .card img{width:100%;height:200px;object-fit:cover;display:block}
 .card div{padding:22px}
-.card h3{color:#500000;margin-bottom:8px}
-.price{font-size:1.5rem;font-weight:900;color:#500000}
-.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}
-.gallery img{width:100%;height:240px;object-fit:cover;border-radius:16px}
-form{background:#fff;border-radius:20px;padding:30px;box-shadow:0 8px 30px rgba(0,0,0,.1);max-width:640px;margin:0 auto}
-input,select,textarea{width:100%;padding:13px;margin:8px 0 16px;border:1px solid #ddd;border-radius:12px;font-size:1rem}
-button{background:#500000;color:#fff;border:0;padding:15px 28px;border-radius:30px;font-weight:800;cursor:pointer;width:100%;font-size:1rem}
-footer{background:#500000;color:#fff;text-align:center;padding:34px 20px}
-.badge{display:inline-block;background:#ffcf4d;color:#500000;padding:6px 14px;border-radius:20px;font-weight:700;font-size:.9rem;margin-bottom:14px}
+.card h3{color:#1F3A5F;margin-bottom:8px}
+.from{font-weight:900;color:#7FA8C9}
+.kraft{background:#C19A6B;color:#fff;border-radius:24px;padding:36px 24px}
+.kraft h2,.kraft .sub{color:#fff}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.step{background:#fff;color:#243447;border-radius:18px;padding:24px;text-align:center}
+.step b{display:block;font-size:2rem;color:#7FA8C9}
+.maroon{background:#500000;color:#fff;border-radius:24px;padding:36px 24px}
+.maroon h2{color:#fff}
+table{width:100%;background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 8px 28px rgba(31,58,95,.12);border-collapse:collapse}
+th,td{padding:14px 16px;text-align:left;border-bottom:1px solid #eef2f7}
+th{background:#1F3A5F;color:#fff}
+details{background:#fff;border-radius:14px;padding:16px 20px;margin:10px 0;box-shadow:0 4px 16px rgba(31,58,95,.08)}
+summary{font-weight:900;color:#1F3A5F;cursor:pointer}
+form{background:#fff;border-radius:20px;padding:30px;box-shadow:0 8px 28px rgba(31,58,95,.12);max-width:640px;margin:0 auto}
+input,select,textarea{width:100%;padding:13px;margin:8px 0 16px;border:1px solid #d8e2ee;border-radius:12px;font-size:1rem;font-family:inherit}
+button{background:#1F3A5F;color:#fff;border:0;padding:15px 28px;border-radius:30px;font-weight:900;cursor:pointer;width:100%;font-size:1rem}
+footer{background:#1F3A5F;color:#fff;text-align:center;padding:36px 20px}
+footer a{color:#F4C6D4}
 </style>
 </head>
 <body>
+<div class="topbar">Made with love in Texas | College Station &amp; San Antonio | DM @_bluemingco_ to order</div>
 <header class="hero">
-<span class="badge">Made with love in Texas</span>
-<h1>Blue-Ming Co.</h1>
-<p>Custom buttons, hand-painted banners and personalized gift bags for Ring Day, graduations, birthdays, game days and every celebration in College Station and San Antonio.</p>
-<div><a class="btn" href="#order">Order Yours</a><a class="btn alt" href="#prices">See Prices</a></div>
+<div class="logo">Blue-Ming co.</div>
+<h1>Custom buttons &amp; cute creations for all of life's celebrations</h1>
+<p>Hand-painted banners, custom buttons, gift bags, photo frames and clipboards. Made to order for Ring Day, game days, graduations, birthdays and parties.</p>
+<a class="btn" href="#order">Order Custom Buttons</a><a class="btn pink" href="#order">Order a Painted Banner</a>
 </header>
 <section>
-<h2>Made For Your Moments</h2>
-<p class="sub">Every piece is handmade for your event. Pick your colors, your words, your occasion. We make it cute, personal and ready to celebrate.</p>
+<h2>Shop By Product</h2>
+<p class="sub">Small painted banners, painted photo frames, button bar, painted clipboards and painted gift bags. Every piece is handmade for your theme.</p>
 <div class="grid">
-<div class="card"><img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=800&q=80" alt="Party celebration"><div><h3>Custom Buttons</h3><p>Game day buttons, graduation buttons, organization and remembrance pins. Button bar for pop-ups and events.</p></div></div>
-<div class="card"><img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=800&q=80" alt="Event decor"><div><h3>Hand-Painted Banners</h3><p>Ring Dunk banners, birthday banners and seasonal decor, painted by hand for photos that pop.</p></div></div>
-<div class="card"><img src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=800&q=80" alt="Gift bags"><div><h3>Gift Bags & Frames</h3><p>Personalized gift bags, painted photo frames and clipboards. Sweet party favors and teacher gifts.</p></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=800&q=80" alt="Party buttons"><div><h3>Button Bar &amp; Custom Buttons</h3><p class="from">From $3</p><p>Your photo, your party, your button. Game day, graduation, Ring Dunk and fan buttons.</p></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=800&q=80" alt="Painted banner"><div><h3>Small Painted Banners</h3><p class="from">Custom quote</p><p>Hand-painted kraft banners for birthdays, baby showers and celebrations.</p></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=800&q=80" alt="Gift bags"><div><h3>Painted Gift Bags</h3><p class="from">Custom quote</p><p>Cute painted gift bags for party favors, teachers and holidays.</p></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=800&q=80" alt="Photo frames"><div><h3>Photo Frames &amp; Clipboards</h3><p class="from">Custom quote</p><p>Painted photo frames and clipboards, sweet gifts for grads and teachers.</p></div></div>
 </div>
 </section>
 <section>
-<h2>Recent Celebrations</h2>
-<p class="sub">Ring Day, birthdays, graduations and campus events across Aggieland.</p>
-<div class="gallery">
-<img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=800&q=80" alt="Graduation">
-<img src="https://images.unsplash.com/photo-1464349153735-7db50ed83c84?w=800&q=80" alt="Birthday party">
-<img src="https://images.unsplash.com/photo-1478146896981-b80fe463b330?w=800&q=80" alt="Celebration">
-<img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&q=80" alt="Event lights">
+<div class="maroon">
+<h2>TAMU Game Day Collection</h2>
+<p class="sub" style="color:#f3d9d9">Gig 'Em in style. Maroon and white buttons for tailgates, Ring Day and Saturday in Aggieland. Class of 2026 photo buttons available.</p>
+<div class="grid">
+<div class="step"><b>Ring Dunk</b>Custom ring buttons with names and bows</div>
+<div class="step"><b>Game Day</b>12th Man, Whoop and Aggie pride buttons</div>
+<div class="step"><b>Graduation</b>Your photo plus Class of 2026</div>
+</div>
 </div>
 </section>
-<section id="prices">
-<h2>Simple Prices</h2>
-<p class="sub">No confusion. Pick your size, see your price, order in one minute.</p>
-<div class="grid">
-<div class="card"><div><h3>3 inch Buttons</h3><p class="price">$5 each</p><p>3 for $12<br>5 for $20<br>Bulk 12+ only $4 each</p></div></div>
-<div class="card"><div><h3>2.25 inch Buttons</h3><p class="price">$3 each</p><p>3 for $8<br>5 for $12<br>Bulk 12+ only $2 each</p></div></div>
-<div class="card"><div><h3>Banners & Gift Bags</h3><p class="price">Custom Quote</p><p>Price by size and design<br>Teachers 20% off<br>50% deposit on bulk orders</p></div></div>
+<section>
+<div class="kraft">
+<h2>How Custom Orders Work</h2>
+<p class="sub">Have something else in mind? Let's create it.</p>
+<div class="steps">
+<div class="step"><b>1</b>Send your idea, photo and event date</div>
+<div class="step"><b>2</b>Approve your mockup and price</div>
+<div class="step"><b>3</b>Pickup in College Station or San Antonio</div>
 </div>
+</div>
+</section>
+<section>
+<h2>Button Prices</h2>
+<p class="sub">Simple and clear. Teachers get 20% off. Bulk orders 50% deposit.</p>
+<table>
+<tr><th>Size</th><th>Single</th><th>Bundles</th><th>Bulk 12+</th></tr>
+<tr><td>3 inch</td><td>$5</td><td>3 for $12, 5 for $20</td><td>$4 each</td></tr>
+<tr><td>2.25 inch</td><td>$3</td><td>3 for $8, 5 for $12</td><td>$2 each</td></tr>
+<tr><td>Banners, bags, frames</td><td colspan="3">Custom quote by size and design</td></tr>
+</table>
+<p class="sub" style="margin-top:16px">Payment: Cash App $Bluemingco, Zelle, Cash</p>
+</section>
+<section>
+<h2>Come Shop With Us</h2>
+<p class="sub">Find Blue-Ming Co. at local markets and campus events. Follow @_bluemingco_ for the next market date, giveaways and new drops.</p>
+<div class="grid">
+<div class="card"><div><h3>McFerrin Center Student Marketplace</h3><p>Texas A&amp;M University, College Station. Come shop with tons of cool student vendors.</p></div></div>
+<div class="card"><div><h3>Seen Markets</h3><p>College Station, TX market booth with banners, buttons and gift bags on display.</p></div></div>
+<div class="card"><div><h3>Custom Orders Open</h3><p>Birthdays, Ring Day, graduations, Spurs fan buttons and bulk organization orders.</p></div></div>
+</div>
+</section>
+<section>
+<h2>Questions</h2>
+<details><summary>How do I order?</summary><p>Fill the order form below or DM @_bluemingco_ on Instagram with your idea and event date.</p></details>
+<details><summary>Can I see a mockup first?</summary><p>Yes. We share a mockup for approval before painting or printing your final piece.</p></details>
+<details><summary>Where do I pickup?</summary><p>Pickup in College Station-Bryan and San Antonio. Shipping can be discussed for bulk orders.</p></details>
+<details><summary>Do you make bulk orders?</summary><p>Yes. Buttons 12+ get bulk pricing with 50% deposit. Great for organizations, teams and parties.</p></details>
 </section>
 <section id="order">
-<h2>Order in One Minute</h2>
-<p class="sub">Tell us your event date and idea. We reply with your design and price.</p>
+<h2>Order Yours</h2>
+<p class="sub">Tell us your theme and date. We reply with your mockup and price.</p>
 <form onsubmit="alert('Thank you! Blue-Ming Co. will reply soon.');return false">
 <label>Your Name</label><input required placeholder="Full name">
 <label>Email or Phone</label><input required placeholder="How can we reach you?">
-<label>What do you need?</label><select><option>Custom Buttons</option><option>Hand-Painted Banner</option><option>Gift Bags</option><option>Photo Frame / Clipboard</option><option>Bulk / Organization Order</option></select>
+<label>What do you need?</label><select><option>Custom Buttons</option><option>Painted Banner</option><option>Gift Bags</option><option>Photo Frame / Clipboard</option><option>Bulk / Organization Order</option></select>
 <label>Event Date</label><input type="date">
-<label>Your Idea</label><textarea rows="4" placeholder="Colors, text, quantity, occasion"></textarea>
+<label>Your Idea</label><textarea rows="4" placeholder="Colors, text, photo, quantity, theme"></textarea>
 <button>Send Order Request</button>
 </form>
-<p class="sub" style="margin-top:18px">Instagram @_bluemingco_ | Email bluemingandco@gmail.com | Payment Cash App $Bluemingco, Zelle, Cash</p>
+<p class="sub" style="margin-top:16px">Instagram @_bluemingco_ | Email bluemingandco@gmail.com</p>
 </section>
-<footer><p>Blue-Ming Co. | College Station, Texas</p><p>Custom buttons, banners and gift bags made with love</p></footer>
+<footer><p class="logo" style="color:#fff;font-size:2.4rem">Blue-Ming co.</p><p>Custom buttons &amp; cute creations, made with love in Texas</p><p><a href="https://www.instagram.com/_bluemingco_/">@_bluemingco_ on Instagram</a></p></footer>
 </body>
 </html>
